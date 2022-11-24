@@ -58,7 +58,7 @@ function addAtributes()
 {
     for (let i =0; i<pokemons.length; i++){
         pokemons[i]['min_damage'] = Math.floor(Math.random() * (2-1+1)+1);
-        pokemons[i]['max_damage'] = Math.floor(Math.random() * (5-3+1)+1);
+        pokemons[i]['max_damage'] = Math.floor(Math.random() * (5-3+1)+3);
     }
     console.log(pokemons)
 }
